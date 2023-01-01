@@ -31,4 +31,5 @@ int main(){
 
     func(A,n);
     cout<<endl;
+    return 0;
 }
