@@ -1,6 +1,6 @@
 /**
  * @file Example7.cpp
- * @author Pravin
+ * @author pravin
  * @brief parameter passing method - call by value mechanism
  * @version 0.1
  * @date 2023-01-01
