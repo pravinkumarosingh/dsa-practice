@@ -10,7 +10,6 @@ int *func(int size){
         ptr[i] = i+1;
     }
     return ptr;
-    delete ptr;
 }
 
 int main(){
