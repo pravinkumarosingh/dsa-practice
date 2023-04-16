@@ -29,5 +29,6 @@ int main(){
     cout << "Func1 ";func1(3);
     cout << "\n";
     cout << "Func2 ";func2(3);
+    cout << "\n";
     return 0;
 }
