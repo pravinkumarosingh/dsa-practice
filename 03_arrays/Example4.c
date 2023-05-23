@@ -1,36 +1,34 @@
-/**
- * @file Example4.c
- * @author your name (you@domain.com)
- * @brief 
- * @version 0.1
- * @date 2023-05-14
- * 
- * @copyright Copyright (c) 2023
- * 
- */
 
-#include<stdio.h>
-#include<stdlib.h>
-void main(){
-    int *p,*q;
+#include <stdio.h>
+#include <stdlib.h>
 
-    p = (int *)malloc(4*sizeof(int));
-    p[0] = 3;
-    p[1] = 5;
-    p[2] = 7;
-    p[3] = 9;
-
-    q = (int *)malloc(8*sizeof(int));
-
+void main()
+{
+    int *p, *q;
     int i;
-    for(i=0;i<4;i++){
+
+    p = (int *)malloc(5 * sizeof(int));
+    p[0] = 1;
+    p[1] = 2;
+    p[2] = 3;
+    p[3] = 4;
+    p[4] = 5;
+
+    q = (int *)malloc(10 * sizeof(int));
+
+    for (i = 0; i < 5; i++)
+    {
         q[i] = p[i];
     }
+
     free(p);
-    for(i=0;i<4;i++){
-        printf("%d ",q[i]);
-    }
+
     p = q;
-    // q=null;
+    q = NULL;
+
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d ", p[i]);
+    }
 
 }
