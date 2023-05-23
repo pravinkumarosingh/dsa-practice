@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/dsa-practice.dir/03_arrays/Example1.cpp.o" -o dsa-practice 
